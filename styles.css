@@ -1,0 +1,9 @@
+#profile-picture{
+    height:100px;
+    width:100px;
+
+}
+.seperator-container{
+    display: flex; 
+    justify-content: space-between;
+}
