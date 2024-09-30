@@ -21,3 +21,39 @@ h1, h2 {
 #seperate-header{
     padding-top:1px;
 }
+#skills{
+    float:right;
+}
+@media (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+}
+@media (max-width:10000px){
+    #skills{
+        display:none;
+    }
+}
+
+#footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.white{
+height: 100px;
+width:100%;
+background-color: antiquewhite;
+}
+
+.black{
+height: 100px;
+width:100%;
+background-color: black;
+}
+
+div.black
+{
+color: white;
+}
