@@ -1,9 +1,23 @@
 #profile-picture{
     height:100px;
     width:100px;
+    position: absolute;
+    left: 300px;
+    top: 0px;
 
 }
 .seperator-container{
     display: flex; 
     justify-content: space-between;
+}
+h1, h2 {
+    color: red;
+}
+.middle-h2{
+    display: block;
+    background-color: blue;
+    text-align: center;
+}
+#seperate-header{
+    padding-top:1px;
 }
